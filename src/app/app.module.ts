@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JuegodadosComponent } from './juegodados/juegodados.component';
 import { DadoComponent } from './dado/dado.component';
+import { AcercadeComponent } from './acercade/acercade.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     JuegodadosComponent,
-    DadoComponent
+    DadoComponent,
+    AcercadeComponent
   ],
   imports: [
     BrowserModule,
